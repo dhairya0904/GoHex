@@ -1,17 +1,17 @@
-# GolangBaseService
-A generic framework to write microservice
+# Product Service
+A generic framework(Hexagonal Architecture) to write microservice
 
-All proto files installed at one place: https://github.com/dhairya0904/GolangBaseServiceModel
+ProtoFile: https://github.com/dhairya0904/GolangBaseServiceModel
 
-## Api Flow
+## How to write code?
 
-handler -> component(Business logic) -> adapter(Optional) -> external(All the external service calls)
-
+https://medium.com/@matiasvarela/hexagonal-architecture-in-go-cfd4e436faa3
 
 # Dependencies
 * Install Protobuf compiler
 * Install Golang
 * Make sure GOPATH is set properly
+* To use prive repo with go module refer: https://medium.com/swlh/go-modules-with-private-git-repository-3940b6835727
 
 # Testing: grpccurl to test grpc calls
 
