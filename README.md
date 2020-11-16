@@ -1,4 +1,4 @@
-# Product Service
+# GoHex
 A generic framework(Hexagonal Architecture) to write microservice
 
 ProtoFile: https://github.com/dhairya0904/GolangBaseServiceModel
